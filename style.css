@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+html{
+  font-family: 'PT Sans Narrow';
+  padding: 20px;
+}
+
+body{
+  background-image: url("img/relaxing.jpg");
+}
+
+section header h1{
+  font-size: 8.0em;
+  color: #32CD32;
+  text-decoration: underline;
+  text-shadow: 1px 1px #013220;
+  text-align: center;
+  padding: 120px;
+}
+
+section header h2{
+  font-size: 3.2em;
+  color: #bab86c;
+  text-align: center;
+  text-shadow: 1px 1px #013220;
+}
+
+h3{
+  font-size: 3.0em;
+  color: #bab86c;
+  text-align: center;
+  text-shadow: 1px 1px #013220;
+}
+
+.summary > p:nth-child(1){
+  font-size: 2.2em;
+  color: #654321;
+  text-align: center;
+  text-shadow: 1px 1px #013220;
+}
+
+.summary > p:nth-child(2){
+  font-size: 2.2em;
+  color: #654321;
+  text-align: center;
+  text-shadow: 1px 1px #013220;
+}
+
+.summary > p:nth-child(2) > a{
+  text-decoration: none;
+  color: #32CD32;
+}
+
+.preamble > p{
+  text-align: center;
+  font-size: 1.8em;
+  text-shadow: 1px 1px #013220;
+ }
+
+.explanation > h3 ~ p{
+  text-align: center;
+  font-size: 1.8em;
+  color: purple;
+  text-shadow: 1px 1px #013220;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #bab86c;
+  background-color:#bab86c;
+}
+
+.participation > p{
+  text-align: center;
+  font-size: 1.8em;
+  color: purple;
+  text-shadow: 1px 1px #013220;
+}
+.participation > p > a{
+  text-decoration: none;
+  color: #32CD32;
+}
+
+.benefits p {
+  border-style: solid;
+  border-width: inherit;
+  background-image: url("img/nature.jpg");
+  background-position: center;
+}
+
+.benefits > h3 + p{
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px #bab86c;
+}
+
+.requirements > p{
+  border-style: solid;
+  border-color: purple;
+  border-width: inherit;
+  background-color: purple;
+  padding: none;
+}
+
+.requirements > p{
+  text-align: center;
+  font-size: 1.8em;
+  color: #bab86c;
+}
+
+.requirements > p > a{
+  text-decoration: none;
+  color: #32CD32;
+}
+
+footer{
+  font-size: 3.5em;
+  text-align: center;
+}
+
+footer > a{
+  text-decoration: none;
+  color: #32CD32;
+}
+
+aside{
+  float: left;
+  text-decoration: none;
+  color: #32CD32;
+  font-size: 1.4em;
+}
+
+ a{
+  text-decoration: none;
+  color: #32CD32;
+}
